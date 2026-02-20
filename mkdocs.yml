@@ -3,5 +3,6 @@ site_name: IAW
 nav:
     - Principal: index.md
     - Acerca de: about.md
-
+    - Practica 5.1: Practica-5.1.md
+    - Práctica 5.2: practica-5.2.md
 theme: material

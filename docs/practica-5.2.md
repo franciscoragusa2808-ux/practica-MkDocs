@@ -76,28 +76,28 @@ Se levantan los contenedores con:
 ```
 docker compose up -d
 ```
-![se sube](imagenes/1.png)
+![se sube](imagenes/7.png)
 
 
 Se comprueba el estado de los contenedores con:
 ```
 docker ps
 ```
-![se sube](imagenes/2.png)
+![se sube](imagenes/8.png)
 
 Se observa la generación del certificado con:
 ```
 docker compose logs https-portal
 ```
-![se sube](imagenes/3.png)
+![se sube](imagenes/9.png)
 
 Resultado:
 
 Si accedemos al dominio se muestra la página de inicio de WordPress:
 
-![se sube](imagenes/4.png)
+![se sube](imagenes/10.png)
 
 
 Acceso a phpMyAdmin:
 
-![se sube](imagenes/5.png)
+![se sube](imagenes/11.png)
