@@ -1,45 +1,18 @@
 site_name: IAW
-site_description: Implantación de Aplicaciones Web - Practicas MkDocs
-site_author: Meme
-repo_url: https://github.com/franciscoragusa2808-ux/practica-MkDocs
-repo_name: GitHub
+
+nav:
+  - Principal: index.md
+  - Acerca de: about.md
+  - Practica 5.1: Practica-5.1.md
+  - Práctica 5.2: practica-5.2.md
 
 theme:
   name: material
   language: es
   palette:
     - scheme: default
-      primary: indigo
-      accent: orange
-      toggle:
-        icon: material/weather-night
-        name: Oscuro
+      primary: deep purple
+      accent: lime
     - scheme: slate
-      primary: indigo
-      accent: orange
-      toggle:
-        icon: material/weather-sunny
-        name: Claro
-  font:
-    text: Roboto
-    code: Roboto Mono
-  features:
-    - navigation.expand
-    - navigation.sections
-    - navigation.tabs
-    - toc.integrate
-    - content.code.copy
-
-nav:
-  - 🏠 Principal: index.md
-  - ℹ️ Acerca de: about.md
-  - 📘 Practicas:
-      - 📄 Práctica 5.1: Practica-5.1.md
-      - 📄 Práctica 5.2: practica-5.2.md
-
-markdown_extensions:
-  - admonition
-  - pymdownx.superfences
-  - toc:
-      permalink: true
-  - tables
+      primary: deep purple
+      accent: lime
